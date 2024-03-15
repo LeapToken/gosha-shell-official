@@ -1,5 +1,3 @@
-Given the complexity and multifunctionality of your Python code snippet, creating a README file for GitHub requires thorough documentation that guides users through installation, setup, and usage. Below is a template you can use to draft your README file. Remember, this template should be customized to fit the specifics of your project, including any additional setup steps or dependencies that might be necessary.
-
 ---
 
 # Gosha's SmartShell
