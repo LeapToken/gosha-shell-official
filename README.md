@@ -2,9 +2,9 @@ Given the complexity and multifunctionality of your Python code snippet, creatin
 
 ---
 
-# Project Name
+# Gosha's SmartShell
 
-A brief description of what this project does and who it's for. Include any relevant badges, images, or acknowledgments here.
+Gosha's SmartShell is an Open-Source python management tool available for everyone. It's a customizable and user-friendly interface packed with powerful features. Whether you're a tech enthusiast or a casual user, Gosha's SmartShell is designed to enhance your digital experience!
 
 ## Prerequisites
 
