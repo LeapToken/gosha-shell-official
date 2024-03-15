@@ -16,11 +16,11 @@ To install the necessary libraries for this project, follow these steps:
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/yourusername/yourprojectname.git
+git clone https://github.com/LeapToken/gosha-shell-official.git
 ```
 2. Navigate to the project directory:
 ```
-cd yourprojectname
+cd gosha-shell-official
 ```
 3. Install the required Python packages:
 ```
