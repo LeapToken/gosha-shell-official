@@ -73,10 +73,6 @@ Distribute under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - @YourTwitter - email@example.com
-
-Project Link: [https://github.com/yourusername/yourprojectname](https://github.com/yourusername/yourprojectname)
+Georgii Taraskin - leaptoken@gmail.com
 
 ---
-
-This template is a starting point and might need adjustments based on your project's specific requirements. Ensure all instructions are clear, and steps are easy to follow to facilitate a smooth user experience.
