@@ -11,7 +11,6 @@ Gosha's SmartShell is an Open-Source python management tool available for everyo
 Before you begin, ensure you have met the following requirements:
 - Python 3.x installed on your system (check by running `python --version` or `python3 --version` in your terminal/command prompt).
 - `pip` installed (Python's package installer).
-- All needed libraries installed
 
 ## Installation
 
@@ -28,11 +27,6 @@ cd yourprojectname
 3. Install the required Python packages:
 ```
 pip install -r requirements.txt
-```
-
-*Note: If a `requirements.txt` file is not provided, you will need to manually install any libraries that the project depends on, such as `tkinter`, `requests`, or `openai`. For example:*
-```
-pip install openai tkinter requests
 ```
 
 ## Configuration
