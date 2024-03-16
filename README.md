@@ -42,11 +42,14 @@ Before running the application, you need to configure it by setting up your Open
 
 To use this project, follow these steps:
 
-1. Run the main script (assuming `main.py` is your entry script):
+1. Navigate to the project directory
+cd gosha-shell-official
+```
+2. Run the main script (assuming `main.py` is your entry script):
 ```
 python main.py
 ```
-2. Follow any on-screen prompts or GUI interactions as necessary.
+3. Follow any on-screen prompts or GUI interactions as necessary.
 
 ### Functions Overview
 
