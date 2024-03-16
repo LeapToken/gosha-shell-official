@@ -75,13 +75,9 @@ python main.py
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) WARNING: Before launching SmartShell, make sure that the directory it is in has another .py file to prevent the `file_dropdown.current(0)` error (Meaning that the `Select File: [dropdown]` does not detect any .py files.
 - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) The `Run CMD as background task` only affects `Run`, `Update Lib`, `Execute`.
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Choosing a different OS than your own will cause some errors  in some functions.
-- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) The SmartShell is in early development and has a ton of bugs that will be fixed in further updates! If you wish to address any issues with the current version of the program, please refer to the LINK
+- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) The SmartShell is in early development and has a ton of bugs that will be fixed in further updates! If you wish to address any issues with the current version of the program, please refer to [Support!](https://docs.google.com/forms/d/e/1FAIpQLSfQ5ZCbmEKZ-bPK0-FADfq6VS9srK_2LxqBPQxPWa0aROc1XQ/viewform)
 
 ### Functions Overview (For Developers)
-
-```diff
-- WARNING: Before launching SmartShell, make sure that the directory it is in has another .py file to prevent the `file_dropdown.current(0)` error (Meaning that the `Select File: [dropdown]` does not detect any .py files.
-```
 
 - `ensure_rate_limit()`: Ensures API call rate limits are respected.
 - `custom_chat_gpt(user_input)`: Sends user input to the ChatGPT model and returns its response.
