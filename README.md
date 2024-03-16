@@ -59,7 +59,11 @@ python main.py
 - `custom_chat_gpt(user_input)`: Sends user input to the ChatGPT model and returns its response.
 - `generate_explanation(error_message)`: Generates explanations for errors using ChatGPT.
 - `execute_external_code()`: Executes code from an external file safely.
-- *Continue with brief descriptions of other functions as necessary...*
+- `analyze_code()`: Analyzes the current file (selected in the dropdown) using ChatGPT.
+- `restart_program()`: Restarts Gosha's SmartShell (Very Buggy).
+- `view_installed_packages()`: Runs 'pip list' command using terminal based on OS selection.
+- `install_package()`: Collects package_name and cmd_option inputs for `install_package_thread`.
+- `install_package_thread`: Runs 'pip install [cmd_option] 'package_name'
 
 ## Contributing
 
