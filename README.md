@@ -63,7 +63,18 @@ python main.py
 - `restart_program()`: Restarts Gosha's SmartShell (Very Buggy).
 - `view_installed_packages()`: Runs 'pip list' command using terminal based on OS selection.
 - `install_package()`: Collects package_name and cmd_option inputs for `install_package_thread`.
-- `install_package_thread`: Runs 'pip install [cmd_option] 'package_name'
+- `install_package_thread(package_name, cmd_option)`: Runs 'pip install [cmd_option] [package_name]'.
+- `get_python_version()`: Checks current Python Interpreter version.
+- `execute_command(command)`: Starts subprocess for custom command.
+- `execute_command_thread()`: 'Execute' button configuration.
+- `check_for_updates()`: Checks if the current Python version is up-to-date.
+- `toggle_update_message()`: 'Check for Updates' button configuration.
+- `run_selected_file()`: Runs current selected file in the dropdown.
+- `print_red_divider()`: Outputs a line to separate code.
+- `scan_and_update_packages`: Scans outdated libraries (DOES NOT UPDATE THE PACKAGES).
+- `update_all_packages()`: Updates the outdated libraries.
+- `install_library(library_entry=None)`: UNUSED THE OFFICIAL PROGRAM (CAN BE DELETED)
+- `get_num_rows()`: Calculates the number of rows in the current selected file in the dropdown (UNUSED IN THE OFFICAL PROGRAM)
 
 ## Contributing
 
