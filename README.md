@@ -50,7 +50,7 @@ cd gosha-shell-official
 ```
 python main.py
 ```
-3. Follow the `README` instructons below for detailed usage
+3. Follow the `README` instructions below for detailed usage
 
 ### Functions Overview (For Developers)
 
