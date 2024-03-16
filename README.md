@@ -9,6 +9,7 @@ Gosha's SmartShell is an Open-Source python management tool available for everyo
 Before you begin, ensure you have met the following requirements:
 - Python 3.x installed on your system (check by running `python --version` or `python3 --version` in your terminal/command prompt).
 - `pip` installed (Python's package installer).
+- `git` installed (for cloning github repo)
 
 ## Installation
 
