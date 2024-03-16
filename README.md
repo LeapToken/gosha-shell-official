@@ -43,6 +43,7 @@ Before running the application, you need to configure it by setting up your Open
 To use this project, follow these steps:
 
 1. Navigate to the project directory
+```
 cd gosha-shell-official
 ```
 2. Run the main script (assuming `main.py` is your entry script):
