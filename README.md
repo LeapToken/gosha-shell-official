@@ -53,6 +53,28 @@ python main.py
 ```
 3. Follow the `README` instructions below for detailed usage
 
+### Short Guide
+
+- `Select File: [dropdown]`: Shows files in the same directory as `main.py (SmartShell)`.
+- `Run File`: Executes the current selected file in the dropdown.
+- `Divider`: Prints a red line that separates code in the shell.
+- `↻`: Restarts the SmartShell (Very Buggy).
+- `AI Code Analysis`: Analyzes current selected file in the dropdown using ChatGPT.
+- `pip install: [input] [dropdown]`: Custom `pip install` command with customized settings.
+- `Run`: Executes the customized `pip install` command.
+- `View Libraries`: Shows all installed libraries in the current environment in the shell.
+- `Scan`: Scans for outdated packages.
+- `Update Lib`:  Updates all outdated libraries.
+- `Run CMD as background task`: Runs some command as background tasks.
+- `*Select OS: [dropdown]`: By selecting your current OS, you will prevent errors for some functions.
+- `Custom CMD: [input]`: Allows custom command to be executed.
+- `Execute`: Executes the custom command.
+- `Check for Updates`: Checks if your current Python Interpreter version is up-to-date.
+
+### Important things to know
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `WARNING: Before launching SmartShell, make sure that the directory it is in has another .py file to prevent the `file_dropdown.current(0)` error (Meaning that the `Select File: [dropdown]` does not detect any .py files.
+- - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `The `Run` `
+
 ### Functions Overview (For Developers)
 
 - `ensure_rate_limit()`: Ensures API call rate limits are respected.
@@ -70,7 +92,7 @@ python main.py
 - `check_for_updates()`: Checks if the current Python version is up-to-date.
 - `toggle_update_message()`: 'Check for Updates' button configuration.
 - `run_selected_file()`: Runs current selected file in the dropdown.
-- `print_red_divider()`: Outputs a line to separate code.
+- `print_red_divider()`: Outputs a red line to separate code.
 - `scan_and_update_packages`: Scans outdated libraries (DOES NOT UPDATE THE PACKAGES).
 - `update_all_packages()`: Updates the outdated libraries.
 - `install_library(library_entry=None)`: UNUSED THE OFFICIAL PROGRAM (CAN BE DELETED)
