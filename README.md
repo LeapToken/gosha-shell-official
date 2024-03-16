@@ -50,9 +50,9 @@ cd gosha-shell-official
 ```
 python main.py
 ```
-3. Follow any on-screen prompts or GUI interactions as necessary.
+3. Follow the `README` instructons below for detailed usage
 
-### Functions Overview
+### Functions Overview (For Developers)
 
 - `ensure_rate_limit()`: Ensures API call rate limits are respected.
 - `custom_chat_gpt(user_input)`: Sends user input to the ChatGPT model and returns its response.
