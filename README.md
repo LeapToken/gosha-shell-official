@@ -72,8 +72,8 @@ python main.py
 - `Check for Updates`: Checks if your current Python Interpreter version is up-to-date.
 
 ### Important things to know
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `WARNING: Before launching SmartShell, make sure that the directory it is in has another .py file to prevent the `file_dropdown.current(0)` error (Meaning that the `Select File: [dropdown]` does not detect any .py files.
-- - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `The `Run` `
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) WARNING: Before launching SmartShell, make sure that the directory it is in has another .py file to prevent the `file_dropdown.current(0)` error (Meaning that the `Select File: [dropdown]` does not detect any .py files.
+- - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `The 
 
 ### Functions Overview (For Developers)
 
