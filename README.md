@@ -80,7 +80,7 @@ python main.py
 ### Functions Overview (For Developers)
 
 ```diff
-- text in red
+- WARNING: Before launching SmartShell, make sure that the directory it is in has another .py file to prevent the `file_dropdown.current(0)` error (Meaning that the `Select File: [dropdown]` does not detect any .py files.
 ```
 
 - `ensure_rate_limit()`: Ensures API call rate limits are respected.
