@@ -79,6 +79,10 @@ python main.py
 
 ### Functions Overview (For Developers)
 
+```diff
+- text in red
+```
+
 - `ensure_rate_limit()`: Ensures API call rate limits are respected.
 - `custom_chat_gpt(user_input)`: Sends user input to the ChatGPT model and returns its response.
 - `generate_explanation(error_message)`: Generates explanations for errors using ChatGPT.
