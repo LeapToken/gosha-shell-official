@@ -65,7 +65,7 @@ python main.py
 - `View Libraries`: Shows all installed libraries in the current environment in the shell.
 - `Scan`: Scans for outdated packages.
 - `Update Lib`:  Updates all outdated libraries.
-- `Run CMD as background task`: Runs some command as background tasks.
+- `Run CMD as background task`: Runs some commands as background tasks.
 - `*Select OS: [dropdown]`: By selecting your current OS, you will prevent errors for some functions.
 - `Custom CMD: [input]`: Allows custom command to be executed.
 - `Execute`: Executes the custom command.
