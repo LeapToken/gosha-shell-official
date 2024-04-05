@@ -316,28 +316,6 @@ def update_all_packages():
     # Start the update process in a separate thread
     threading.Thread(target=update_thread).start()
 
-def install_library(library_entry=None):
-    library_name = library_entry.get()  # Assuming you have a way to get the library name from the user input
-    cmd_option = cmd_options_dropdown.get()
-
-    # Construct the command based on the selected option
-    if cmd_option in ['--no-deps', '--user', '--force-reinstall', '--no-cache-dir', '--pre', '--require-hashes', '--extra-index-url']:
-        # For options that should come after the library name
-        command = f"pip install {library_name} {cmd_option}"
-    elif cmd_option in ['-U', '-q', '-e', '-i', '--extra-index-url']:
-        # For options like '-r' where the library name actually should follow the option
-        command = f"pip install {cmd_option} {library_name}"
-    elif cmd_option == '':
-        # No option selected
-        command = f"pip install {library_name}"
-    else:
-        # Default to a safe fallback
-        command = f"pip install {library_name}"
-
-    print(f"Executing: {command}")
-    # Assuming you're using a subprocess or os.system to execute the command
-    os.system(command)
-
 def get_num_rows(file_path):
     try:
         with open(file_path, 'r') as file:
